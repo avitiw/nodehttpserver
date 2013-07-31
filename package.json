@@ -4,5 +4,6 @@
 "description": "Minimalist web server",
 "dependencies": { 
 "mime": "~1.2.7"
-}
+},
+{ "engines" : { "node" : "~0.7" } }
 }
