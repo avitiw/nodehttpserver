@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+  p  Welcome to #{title}
+  div(class='container')
+   form(method='post')
+    div(class='row')   
+      label(class='col-md-1') Start
+      div(class='col-md-2') 
+       input(type='number', name='startLat',value=data.startLat, step='0.01')
+      div(class='col-md-2') 
+       input(type='number', name='startLng',value=data.startLng,   step='0.01') 
+    div(class='row')   
+      label(class='col-md-1') End
+      div(class='col-md-2') 
+       input(type='number', name='endLat',value=data.endLat,    step='0.01')
+      div(class='col-md-2') 
+       input(type='number',name='endLng',value=data.endLng,   step='0.01')
+    div(class='row')
+       div(class='col-md-4')
+        input(type='submit',value='Find',data-transition='fade',data-theme='c')
