@@ -5,7 +5,7 @@ node_modules
 *.pydevproject
 .project
 .metadata
-bin/
+ 
 tmp/
 *.tmp
 *.bak
@@ -47,7 +47,7 @@ local.properties
 [Rr]elease/
 x64/
 build/
-[Bb]in/
+# [Bb]in/
 [Oo]bj/
 
 # MSTest test Results

@@ -2,7 +2,8 @@ First install NodeJS
 then open command prompt and got to "myapp" directiory
 Run: 
 	npm install
-Afer successfull install : 
+	npm install express-generator -g
+Afer successfull install and starting Kafka as mentioned in Kafka section, to start web server: 
 	set DEBUG=myapp & node  .\bin\www
 
 -----------------
